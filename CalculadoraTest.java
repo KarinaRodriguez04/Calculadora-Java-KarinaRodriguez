@@ -1,0 +1,25 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+    @Test
+    public void testSumar() {
+        assertEquals(9, Calculadora.sumar(4, 5));
+    }
+
+    @Test
+    public void testRestar() {
+        assertEquals(2, Calculadora.restar(5, 3));
+    }
+
+    @Test
+    public void testMultiplicar() {
+        assertEquals(15, Calculadora.multiplicar(3, 5));
+    }
+
+    @Test
+    public void testDividir() {
+        assertEquals(4, Calculadora.dividir(20, 5));
+    }
+}
