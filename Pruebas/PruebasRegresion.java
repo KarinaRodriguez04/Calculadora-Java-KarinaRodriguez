@@ -1,3 +1,5 @@
+import CalculadoraJava.src.Calculadora;
+
 public class PruebasRegresion {
     public static void main(String[] args) {
         Operaciones op = new Operaciones();
